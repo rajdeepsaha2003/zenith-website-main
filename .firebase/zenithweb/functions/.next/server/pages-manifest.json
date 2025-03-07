@@ -1,0 +1,17 @@
+{
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/agency": "pages/agency.html",
+  "/api/hello": "pages/api/hello.js",
+  "/blog-detail": "pages/blog-detail.html",
+  "/contact": "pages/contact.html",
+  "/education": "pages/education.html",
+  "/": "pages/index.html",
+  "/job": "pages/job.html",
+  "/services": "pages/services.html",
+  "/travel": "pages/travel.html",
+  "/blog": "pages/blog.html",
+  "/404": "pages/404.html"
+}
