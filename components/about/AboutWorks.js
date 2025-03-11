@@ -7,6 +7,11 @@ const AboutWorkGrid=()=>{
 const [Tab,setTab] = useState('all')
 const [Items,setItems] = useState([
     {
+        tab: ["all","2024"],
+        img: "/assets/images/batch24.png",
+        name: "Zenith Institute",
+        title: "An Altar for Science Enthusiasts"
+    },{
         tab: ["all","2023"],
         img: "https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2FR1.jpg?alt=media&token=6b26a43b-bba8-4bbf-bae2-35cec95e7dc8",
         name: "Zenith Institute",
@@ -56,6 +61,7 @@ return(
     <div className="work-link text-center">
         <ul>
             <li className={`filter ${Tab==='all'?'active':''}`} onClick={e=>setTTab('all')}>Results</li>
+            <li className={`filter ${Tab==='ui'?'active':''}`} onClick={e=>setTTab('2024')}>2024</li>
             <li className={`filter ${Tab==='ui'?'active':''}`} onClick={e=>setTTab('2023')}>2023</li>
             <li className={`filter ${Tab==='development'?'active':''}`} onClick={e=>setTTab('2022')}>2022</li>
             <li className={`filter ${Tab==='graphic'?'active':''}`} onClick={e=>setTTab('2021')}>2021</li>
