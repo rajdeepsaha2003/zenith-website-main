@@ -35,7 +35,7 @@ return(
                     <li><Link href="/"legacyBehavior><a>WBJEE</a></Link></li>
                     <li><Link href="/"legacyBehavior><a>NEET</a></Link></li>
                     <li><Link href="/"legacyBehavior><a>Foundation</a></Link></li>
-                    <li><Link href="/"legacyBehavior><a>Robotics & AI	</a></Link></li>
+                    <li><Link href="/robotics" legacyBehavior><a>Robotics & AI</a></Link></li>
                     <li><Link href="/"legacyBehavior><a>Olympiads - SOF</a></Link></li>
                 </ul>
             </div>

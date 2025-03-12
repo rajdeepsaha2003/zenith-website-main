@@ -36,7 +36,7 @@ return(
     <EduTeacherItem 
      img="https://firebasestorage.googleapis.com/v0/b/cloud-profiler-demo-399610.appspot.com/o/zenith-website%2Fins3.png?alt=media&token=b5fe4a3b-dbf6-466d-b2b0-8cfd9ea60e25"
      name="Dr. Ritesh Pandey"
-     position="Cheif Mentor Chemistry"
+     position="Chief Mentor Chemistry"
     />
 </div>
 </div>
