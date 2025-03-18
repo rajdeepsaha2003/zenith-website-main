@@ -6580,10 +6580,10 @@ Style Sheet for Robotics and AI Page
 =======================================================================================================================================
 ======================================================================================================================================= */
 
-.robotics-container {
+.-container {
   text-align: center;
-  padding: 20px 50px; /* Reduced top padding */
-  font-family: 'Poppins', sans-serif;
+  padding: 20px 50px; 
+  /* font-family: 'Poppins', sans-serif; */
   color: #2c3e50;
   position: relative;
   z-index: 1; /* Ensures content stays on top */
@@ -6595,6 +6595,8 @@ Style Sheet for Robotics and AI Page
   z-index: -1; /* Moves behind all content */
   animation: float 3s ease-in-out infinite; /* Floating Animation */
   opacity: 0.3; /* Makes them slightly transparent */
+  width: 100px; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Left-Side Images */
@@ -6658,7 +6660,7 @@ Style Sheet for Robotics and AI Page
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   align-items: center;
   gap: 20px;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -6693,7 +6695,7 @@ Style Sheet for Robotics and AI Page
 
 /* Title */
 .robotics-title {
-  font-size: 5rem;
+  font-size: 3.5rem;
   margin-top: 10vh; /* Move title down */
   margin-bottom: 10px; /* Reduce gap below title */
   font-weight: 700;
@@ -6746,9 +6748,10 @@ Style Sheet for Robotics and AI Page
 
 /* Course Title */
 .course-title {
-  font-size: 3rem; /* Increased size */
+  font-size: 2.5rem; /* Increased size */
   font-weight: 700; /* Makes it bold */
   margin-top: 30px;
+  text-align: center;
   margin-bottom: 30px;
   transition: transform 0.3s ease-in-out;
 }
@@ -6827,7 +6830,7 @@ Style Sheet for Robotics and AI Page
 @media (max-width: 768px) {
   .course-list {
       flex-direction: column;
-      align-items: center;
+      /* align-items: center; */
   }
 
   .course-card {
@@ -6835,6 +6838,23 @@ Style Sheet for Robotics and AI Page
   }
 }
 
+@media (max-width: 480px) {
+  .course-list {
+      flex-direction: column;
+      /* align-items: center; */
+  }
+
+  .course-card {
+      width: 100%;
+  }
+  .robotics-courses {
+    width: 100vw;  /* Full viewport width */
+    display: flex; /* Optional: Helps with centering content */
+    justify-content: center; /* Optional: Centers content horizontally */
+    align-items: center; /* Optional: Centers content vertically */
+  }
+  
+}
 
 /* ================================================================================================================================
 =====================================================================================================================================

@@ -2,7 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import EducationDetailOne from "../../constant/education/DetailOne";
 import StudentForm from './StudentForm';  // Make sure to adjust the import path as needed
-import Slider from 'react-slick/lib/slider';
+// import Slider from 'react-slick/lib/slider';
+import Slider from "react-slick";
+
+
+
+
 import EducationDetailOne2 from '../../constant/education/DetailOne2';
 import EducationDetailOne3 from '../../constant/education/DetailOne3';
 
@@ -30,10 +35,14 @@ const EducationHeaderBottom = () => {
     <>
       <div className="edu-hero-style">
         <Slider
-        infinite={true}
-        arrows={false}
-        dots={true}
-       >
+          infinite={true}
+          arrows={false}
+          dots={true}
+          autoplay={true}  // Enables automatic sliding
+          autoplaySpeed={3000}  // Changes slide every 3 seconds
+          pauseOnHover={false}  // Pauses autoplay when hovering
+          speed={1000}  // Smooth transition (1 sec)
+        >
         <div className="container">
           <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-0">
             <div className="col-lg-5 order-1 order-lg-0">
